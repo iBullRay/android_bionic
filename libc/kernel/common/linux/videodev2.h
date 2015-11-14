@@ -1588,7 +1588,7 @@ enum v4l2_exposure_auto_type {
 
 #define V4L2_CID_SCENE_EXPOSURE (V4L2_CID_CAMERA_CLASS_BASE+19)
 
-enum  v4l2_scene_exposure_type {
+enum v4l2_scene_exposure_type {
     V4L2_SCENE_MODE_HOUSE           = 0,
     V4L2_SCENE_MODE_SUNLIGHT        = 1,
     V4L2_SCENE_MODE_ACTION          = 2,
@@ -1612,7 +1612,7 @@ enum  v4l2_scene_exposure_type {
 enum prev_capt {
     PREVIEW_MODE = 0,
     CAPTURE_MODE,
-  };
+};
 
 #define V4L2_CID_EXPOSURE_COMP (V4L2_CID_CAMERA_CLASS_BASE+21)
 
@@ -1626,16 +1626,16 @@ enum af_mode {
     MACRO_AF = (0x1<<4),
     MANUAL_AF = (0x1<<5),
     FACE_AF = (0x1<<6),
-  };
+};
 
 #define V4L2_CID_AF_STATUS (V4L2_CID_CAMERA_CLASS_BASE+23)
 
-enum af_status{
-      AF_STATUS_DISABLE = 0,
+enum af_status {
+    AF_STATUS_DISABLE = 0,
     AF_STATUS_UNFINISH,
     AF_STATUS_OK,
     AF_STATUS_FAIL,
-  };
+};
 
 #define V4L2_CID_AF_REGION (V4L2_CID_CAMERA_CLASS_BASE+24)
 
